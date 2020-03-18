@@ -5,6 +5,14 @@ branding:
   icon: "cloud"
   color: "orange"
 
+inputs:
+  cmd:
+    description: "bin/bash command"
+    required: true
+    default: "sam --version"
+
 runs:
   using: "docker"
-  image: "docker://tktcorporation/aws-sam-cli-docker:latest"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.cmd }}
