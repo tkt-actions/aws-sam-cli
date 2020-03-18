@@ -11,3 +11,7 @@ steps:
     with:
       cmd: 'sam --version'
 ```
+
+## Sample
+
+- https://github.com/tktcorporation/sam-cli_typescript_base/blob/master/.github/workflows/prod-deploy.yml
