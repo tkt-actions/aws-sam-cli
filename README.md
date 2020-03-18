@@ -1,4 +1,4 @@
-# [GitHub Action for AWS SAM CLI](https://github.com/tkt-actions/aws-sam-cli)
+# [AWS SAM CLI Action](https://github.com/tkt-actions/aws-sam-cli)
 
 ## Usage
 
