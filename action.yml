@@ -1,5 +1,5 @@
-name: "aws-sam-cli"
-description: "for using aws sam-cli"
+name: "GitHub Action for AWS SAM CLI"
+description: "For using aws sam-cli and other commands"
 
 branding:
   icon: "cloud"
