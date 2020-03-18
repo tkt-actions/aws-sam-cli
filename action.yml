@@ -1,0 +1,10 @@
+name: "aws-sam-cli"
+description: "for using aws sam-cli"
+
+branding:
+  icon: "cloud"
+  color: "orange"
+
+runs:
+  using: "docker"
+  image: "docker://tktcorporation/aws-sam-cli-docker:latest"
