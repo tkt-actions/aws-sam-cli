@@ -1,4 +1,4 @@
-FROM tktcorporation/aws-sam-cli:latest
+FROM tktcorporation/aws-sam-cli:node12-latest
 
 WORKDIR /var/src
 
