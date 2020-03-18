@@ -1,4 +1,11 @@
-# Usage
+# [GitHub Action for AWS SAM CLI](https://github.com/tkt-actions/aws-sam-cli)
+
+## Usage
+
+Set your ENV and write a command including AWS SAM-CLI to `cmd`.
+
+- `cmd` can have `bash` command.
+- `cmd` can have commands other than **sam** .
 
 ```yml
 steps:
@@ -12,6 +19,12 @@ steps:
       cmd: 'sam --version'
 ```
 
-## Sample
+### Sample
 
 - https://github.com/tktcorporation/sam-cli_typescript_base/blob/master/.github/workflows/prod-deploy.yml
+
+## ENV
+
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_DEFAULT_REGION
