@@ -1,4 +1,4 @@
-name: "GitHub Action for AWS SAM CLI"
+name: "AWS SAM CLI Action"
 description: "For using aws sam-cli and other commands"
 
 branding:
